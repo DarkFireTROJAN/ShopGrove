@@ -1,0 +1,42 @@
+﻿@model ShopGrove.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+<!DOCTYPE html>
+
+
+<body background="~/images/Loginbg.jpg" style="background-repeat: no-repeat; background-position: center; background-attachment: fixed;background-size: cover; color:white;">
+
+    <!-- contact section -->
+
+    <section class="contact_section layout_padding">
+        <div class="container px-0">
+            <div class="heading_container">
+                <h2 style="color: white;">Registeration</h2>
+            </div>
+        </div>
+        <div class="container container-bg" style="background-color: white;">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5">
+                    <form action="#">
+                        <div>
+                            <input type="text" placeholder="Username" required/>
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email" required />
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Password" required/>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button>Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- end contact section -->
+</body>
+
+
